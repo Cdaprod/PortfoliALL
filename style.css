@@ -1,0 +1,28 @@
+/* Basic styling and color scheme */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color: #121212;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #00c8ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/* Glowing border for buttons and featured images */
+.glow-border {
+    border: 2px solid #00c8ff;
+    box-shadow: 0 0 10px #00c8ff, 0 0 20px #00c8ff;
+}
+
+/* Additional styles for your sections and components */
+/* ... */
