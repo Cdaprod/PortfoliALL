@@ -3,6 +3,8 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     background-color: #121212;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,6 +24,31 @@ a:hover {
 .glow-border {
     border: 2px solid #00c8ff;
     box-shadow: 0 0 10px #00c8ff, 0 0 20px #00c8ff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Parallax background */
+.parallax-bg {
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.parallax-bg img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+section {
+    position: relative;
+    padding: 50px 0;
 }
 
 /* Additional styles for your sections and components */

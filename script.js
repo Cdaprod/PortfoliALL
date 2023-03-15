@@ -6,7 +6,14 @@ $(document).ready(function() {
     });
 
     // Initialize Rellax
-    var rellax = new Rellax('.rellax');
+    var rellax = new Rellax('.rellax', {
+        speed: -3,
+        center: true,
+        wrapper: null,
+        round: true,
+        vertical: true,
+        horizontal: false,
+    });
 
     // Initialize Fancybox
     $('[data-fancybox="gallery"]').fancybox();
